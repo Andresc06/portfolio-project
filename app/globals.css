@@ -4,9 +4,9 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --color-accent: #00ff99;
+  --color-accent: #ff0048;
   --color-primary: #1c1c22;
-  --color-accent-hover: #00e187;
+  --color-accent-hover: #e0003f;
   --breakpoint-sm: 640px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 960px;

@@ -18,17 +18,17 @@ const Stairs = () => {
   {[...Array(6)].map((_, index) => {
     return (
     <motion.div
-      key={index}
-      className="h-full w-full bg-white relative"
-      transition={{
-        duration: 0.4,
-        ease: "easeInOut",
-        delay: reverseIndex(index) * 0.1 // Adjust the delay based on the index
-      }}
-      variants={stairAnimation}
-      initial="initial"
-      animate="animate"
-      exit="exit"
+        key={index}
+        transition={{
+            duration: 0.4,
+            ease: "easeInOut",
+            delay: reverseIndex(index) * 0.1 // Adjust the delay based on the index
+        }}
+        variants={stairAnimation}
+        initial="initial"
+        animate="animate"
+        exit="exit"
+        className="h-full w-full bg-white relative"
     />
     );
   })}
