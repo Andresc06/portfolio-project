@@ -9,7 +9,7 @@ import StairsTransition from "@/components/StairsTransition";
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrainsMono",
   subsets: ["latin"],
-  weight: ["100", "200", "300","400", "500", "600", "700", "800"]
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800"],
 });
 
 export const metadata = {
