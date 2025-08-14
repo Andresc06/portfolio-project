@@ -3,6 +3,8 @@ import "./globals.css";
 
 // components
 import Header from "@/components/Header";
+import PageTransition from "@/components/PageTransition";
+import StairsTransition from "@/components/StairsTransition";
 
 const jetbrainsMono = JetBrains_Mono({
   variable: "--font-jetbrainsMono",
@@ -20,7 +22,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={jetbrainsMono.variable}>
         <Header />
-        {children}
+        <StairsTransition />
+        <PageTransition>
+          {children}
+        </PageTransition>
       </body>
     </html>
   );
