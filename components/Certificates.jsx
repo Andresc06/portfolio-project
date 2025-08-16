@@ -1,7 +1,7 @@
 const certificates = {
-  title: "About Me",
+  title: "My Certificates",
   description:
-    "I am a passionate Full Stack Developer with experience in building dynamic web applications.",
+    "Here are some of the certificates I have earned throughout my learning journey. They reflect my commitment to continuous improvement and professional development.",
   certificatesList: [
     {
       title: "Web Developer Specialist Level I w/ GPA 4.0",

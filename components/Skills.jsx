@@ -27,7 +27,8 @@ import { motion } from "framer-motion";
 const skills = {
   title: "My skills",
   description:
-    "I am proficient in various programming languages and frameworks, enabling me to build robust applications.",
+    "Here are some of the technologies and tools I have experience with. I am always eager to learn new skills and improve my expertise.",
+  // list of skills with icons
   skillList: [
     { name: "HTML", icon: <FaHtml5 /> },
     { name: "CSS", icon: <FaCss3 /> },

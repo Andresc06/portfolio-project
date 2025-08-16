@@ -18,12 +18,16 @@ const Home = () => {
               Hello I'm <br />{" "}
               <span className="text-accent">Andres Contreras</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
-              I am a software developer with a passion for creating innovative
-              solutions.
+            <p className="max-w-[620px] mb-9 text-white/80">
+              I'm a student of Software Development and also a self-learner in platforms like Codecademy, FreeCodeCamp, and Coursera. I have developed technical skills and communicative skills in my area.
             </p>
             {/* socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
+            <a
+              href="/assets/cv-andrescontreras.pdf"
+              download="cv-andrescontreras.pdf"
+              className="inline-block"
+            >
               <Button
                 variant="outline"
                 size="lg"
@@ -32,6 +36,7 @@ const Home = () => {
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Socials
                   containerStyles="flex gap-6"
