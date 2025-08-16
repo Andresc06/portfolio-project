@@ -4,7 +4,7 @@ const education = [
     {
         years: "2025 - 2026",
         degree: "BAS in Software Development",
-        institution: "Power Finance Texas",
+        institution: "Austin Community College",
     },
     {
         years: "2023 - 2025",
