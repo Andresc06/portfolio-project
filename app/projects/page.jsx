@@ -55,14 +55,14 @@ const projects = [
   },
   {
     num: "04",
-    category: "Web Development",
-    title: "xd",
+    category: "Web Application",
+    title: "CityScope",
     description:
-      "xd",
-    stack: [{ name: "HTML" }, { name: "CSS" }, { name: "JavaScript" }],
-    image: "/assets/projects-preview/payroll.webp",
-    live: "https://payroll-manager.vercel.app/",
-    github: "https://github.com/",
+      "A CodeIgniter 4 web application featuring News API integration with New York Times, dynamic page management, and an AJAX-powered contact system. Built with modular view templates for consistent UI and responsive design.",
+    stack: [{ name: "PHP" }, { name: "CodeIgniter 4" }, { name: "JavaScript" }, { name: "AJAX" }, { name: "NYTimes API" }],
+    image: "/assets/projects-preview/ny-times.webp",
+    live: "https://github.com/Andresc06/cityscope-project",
+    github: "https://github.com/Andresc06/cityscope-project",
   },
   {
     num: "05",
@@ -82,7 +82,7 @@ const Projects = () => {
 
   const handleSlideChange = (swiper) => {
     // get current slide index
-    const currentIndex = swiper.activeIndex;
+    const currentIndex = swiper.realIndex;
 
     // set project to the current slide
     setProject(projects[currentIndex]);
@@ -157,6 +157,7 @@ const Projects = () => {
           </div>
           <div className="w-full xl:w-[50%]">
             <Swiper
+              loop={true}
               spaceBetween={30}
               slidesPerView={1}
               onSlideChange={handleSlideChange}
