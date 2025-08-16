@@ -19,7 +19,7 @@ const Home = () => {
               <span className="text-accent">Andres Contreras</span>
             </h1>
             <p className="max-w-[620px] mb-9 text-white/80">
-              I'm a student of Software Development and also a self-learner in platforms like Codecademy, FreeCodeCamp, and Coursera. I have developed technical skills and communicative skills in my area.
+            I'm currently pursuing a Bachelor of Applied Science at Austin Community College, specializing in Software Development. I'm also a dedicated self-learner, actively enhancing my skills through platforms like Codecademy, FreeCodeCamp, and Coursera. Through my academic journey, I have developed technical and communication skills in my field.
             </p>
             {/* socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
