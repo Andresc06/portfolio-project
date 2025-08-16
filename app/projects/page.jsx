@@ -72,7 +72,7 @@ const projects = [
       "This portfolio is a showcase of my skills and projects. It is built with Next.js, Tailwind CSS, and Framer Motion for animations. The design is responsive and optimized for performance.",
     stack: [{ name: "HTML" }, { name: "CSS" }, { name: "JavaScript" }, { name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Framer Motion" }],
     image: "/assets/projects-preview/portfolio.webp",
-    live: "https://payroll-manager.vercel.app/",
+    live: "https://portfolio-andrescontreras.vercel.app/",
     github: "https://github.com/Andresc06/portfolio-project",
   },
 ];
