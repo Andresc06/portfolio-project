@@ -22,17 +22,6 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Game Development",
-    title: "Dungeon Tiles",
-    description:
-      "This is a game written in JavaScript that involves moving around a character in a dungeon-like environment, collecting a key, and opening doors while avoiding enemies. It uses Canvas API as base of the map engine.",
-    stack: [{ name: "HTML" }, { name: "CSS" }, { name: "JavaScript" }, { name: "Sweetalert"}, { name: "Howler.js" }],
-    image: "/assets/projects-preview/dungeon-tiles.webp",
-    live: "https://dungeon-tiles.vercel.app/",
-    github: "https://github.com/Andresc06/Dungeon-Tiles",
-  },
-  {
-    num: "02",
     category: "Web Development",
     title: "Cryptopals Wallet",
     description:
@@ -41,6 +30,17 @@ const projects = [
     image: "/assets/projects-preview/cryptopals.webp",
     live: "https://github.com/Andresc06/cryptopals-Front",
     github: "https://github.com/Andresc06/cryptopals-Front",
+  },
+  {
+    num: "02",
+    category: "Game Development",
+    title: "Dungeon Tiles",
+    description:
+      "This is a game written in JavaScript that involves moving around a character in a dungeon-like environment, collecting a key, and opening doors while avoiding enemies. It uses Canvas API as base of the map engine.",
+    stack: [{ name: "HTML" }, { name: "CSS" }, { name: "JavaScript" }, { name: "Sweetalert"}, { name: "Howler.js" }],
+    image: "/assets/projects-preview/dungeon-tiles.webp",
+    live: "https://dungeon-tiles.vercel.app/",
+    github: "https://github.com/Andresc06/Dungeon-Tiles",
   },
   {
     num: "03",
@@ -63,6 +63,17 @@ const projects = [
     image: "/assets/projects-preview/payroll.webp",
     live: "https://payroll-manager.vercel.app/",
     github: "https://github.com/",
+  },
+  {
+    num: "05",
+    category: "Web Development",
+    title: "Portfolio",
+    description:
+      "This portfolio is a showcase of my skills and projects. It is built with Next.js, Tailwind CSS, and Framer Motion for animations. The design is responsive and optimized for performance.",
+    stack: [{ name: "HTML" }, { name: "CSS" }, { name: "JavaScript" }, { name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Framer Motion" }],
+    image: "/assets/projects-preview/portfolio.webp",
+    live: "https://payroll-manager.vercel.app/",
+    github: "https://github.com/Andresc06/portfolio-project",
   },
 ];
 
