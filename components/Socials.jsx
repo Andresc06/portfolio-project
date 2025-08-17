@@ -18,6 +18,7 @@ const Socials = ({containerStyles, iconStyles}) => {
                     key={index}
                     href={item.href}
                     className={iconStyles}
+                    target="_blank"
                 >
                     {item.icon}
                 </Link>
