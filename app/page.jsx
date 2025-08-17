@@ -24,8 +24,8 @@ const Home = () => {
             {/* socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
             <a
-              href="/assets/cv-andrescontreras.pdf"
-              download="cv-andrescontreras.pdf"
+              href="/assets/AndresContrerasAlvarez-Resume.pdf"
+              download="AndresContrerasAlvarez-Resume.pdf"
               className="inline-block"
             >
               <Button
