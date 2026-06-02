@@ -1,18 +1,18 @@
 import {
-  FaHtml5,
-  FaCss3,
   FaJs,
   FaReact,
   FaNodeJs,
   FaGitAlt,
+  FaJava,
+  FaSwift,
+  FaPython
 } from "react-icons/fa";
 import {
-  SiMysql,
   SiNextdotjs,
   SiMongodb,
   SiExpress,
   SiPostgresql,
-  SiTailwindcss,
+  SiClaude
 } from "react-icons/si";
 
 import {
@@ -30,18 +30,19 @@ const skills = {
     "Here are some of the technologies and tools I have experience with. I am always eager to learn new skills and improve my expertise.",
   // list of skills with icons
   skillList: [
-    { name: "HTML", icon: <FaHtml5 /> },
-    { name: "CSS", icon: <FaCss3 /> },
-    { name: "JavaScript", icon: <FaJs /> },
-    { name: "React", icon: <FaReact /> },
-    { name: "Node.js", icon: <FaNodeJs /> },
-    { name: "MySQL", icon: <SiMysql /> },
-    { name: "MongoDB", icon: <SiMongodb /> },
-    { name: "PostgreSQL", icon: <SiPostgresql /> },
-    { name: "Git", icon: <FaGitAlt /> },
-    { name: "Express.js", icon: <SiExpress /> },
-    { name: "Next.js", icon: <SiNextdotjs /> },
-    { name: "Tailwind CSS", icon: <SiTailwindcss /> },
+    { name: "Python", icon: FaPython, color: "#3776AB" },
+    { name: "JavaScript", icon: FaJs, color: "#F7DF1E" },
+    { name: "Java", icon: FaJava, color: "#ED8B00" },
+    { name: "Swift", icon: FaSwift, color: "#F05138" },
+    { name: "Express.js", icon: SiExpress, color: "#ffffff" },
+    { name: "Next.js", icon: SiNextdotjs, color: "#ffffff" },
+    { name: "React", icon: FaReact, color: "#61DAFB" },
+    { name: "Claude AI", icon: SiClaude, color: "#D97757" },
+    { name: "Git", icon: FaGitAlt, color: "#F05032" },
+    { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
+    { name: "PostgreSQL", icon: SiPostgresql, color: "#336791" },
+    { name: "Node.js", icon: FaNodeJs, color: "#339933" },
+    
   ],
 };
 
@@ -59,6 +60,8 @@ const Skills = () => {
       </div>
       <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
         {skills.skillList.map((skill, index) => {
+          const Icon = skill.icon;
+
           return (
             <li key={index}>
                 <motion.div
@@ -68,8 +71,11 @@ const Skills = () => {
               <TooltipProvider delayDuration={100}>
                 <Tooltip>
                   <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                    <div className="text-6xl group-hover:text-secondary transition-all duration-300">
-                      {skill.icon}
+                    <div
+                      className="text-6xl text-white/80 transition-colors duration-300 group-hover:[color:var(--skill-color)]"
+                      style={{ "--skill-color": skill.color }}
+                    >
+                      <Icon />
                     </div>
                   </TooltipTrigger>
                   <TooltipContent className="capitalize">

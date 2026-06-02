@@ -5,8 +5,8 @@ import { SiGmail } from 'react-icons/si';
 
 const socials = [
   { href: "https://github.com/andresc06", icon: <FaGithub /> },
-  { href: "https://linkedin.com/in/andresc06", icon: <FaLinkedinIn /> },
-  { href: "mailto:andrescontreras370@gmail.com", icon: <SiGmail /> }
+  { href: "https://linkedin.com/in/andrescontrerass", icon: <FaLinkedinIn /> },
+  { href: "mailto:andrescontrerasalvarez066@gmail.com", icon: <SiGmail /> }
 ];
 
 const Socials = ({containerStyles, iconStyles}) => {
