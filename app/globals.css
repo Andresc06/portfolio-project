@@ -89,7 +89,7 @@
 
 @layer base {
   body {
-    @apply font-primary bg-primary text-white leading-loose p-2.5;
+    @apply font-primary bg-primary text-white leading-loose p-2.5 pb-8;
   }
 
   .h1 {

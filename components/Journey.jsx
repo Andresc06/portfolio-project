@@ -30,11 +30,6 @@ const experience = [
         institution: "Power Finance Texas",
     },
     {
-        years: "Mar 2024 - May 2024",
-        role: "Bilingual Support Specialist (Contract)",
-        institution: "Foundever LLC (Turbotax)",
-    },
-    {
         years: "Apr 2022 - Jan 2023",
         role: "Full Stack Developer (Intern)",
         institution: "Social Oplesk",
