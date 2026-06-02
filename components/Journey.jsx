@@ -3,26 +3,36 @@ import { motion } from "framer-motion"
 const education = [
     {
         years: "2025 - 2026",
-        degree: "BAS in Software Development",
+        degree: "Bachelor of Applied Science in Software Development",
         institution: "Austin Community College",
     },
     {
         years: "2023 - 2025",
-        degree: "AAS in Computer Programming",
+        degree: "Associate of Applied Science in Computer Programming",
         institution: "Austin Community College",
     }
 ]
 
 const experience = [
     {
-        years: "Apr 2024 - Present",
+        years: "May 2026 - Present",
+        role: "Travel & Meetings Technology Automation, Jr Developer Intern",
+        institution: "BCD Travel",
+    },
+    {
+        years: "Jan 2026 - May 2026",
+        role: "IT & Web Development Intern",
+        institution: "Austin Housing Authority",
+    },
+    {
+        years: "Apr 2024 - Jan 2026",
         role: "Bilingual Customer Service Representative",
         institution: "Power Finance Texas",
     },
     {
         years: "Mar 2024 - May 2024",
-        role: "Bilingual Customer Support Specialist (Contract)",
-        institution: "Foundever LLC - Turbotax",
+        role: "Bilingual Support Specialist (Contract)",
+        institution: "Foundever LLC (Turbotax)",
     },
     {
         years: "Apr 2022 - Jan 2023",
@@ -46,7 +56,7 @@ const Journey = () => {
         {
             education.map((item, index) => {
                 return (
-                    <div key={index} className="flex items-center gap-12 w-full">
+                    <div key={index} className="flex items-center gap-12 w-full pb-12">
                         {/* bullets */}
                         <div className="flex flex-col w-max justify-center items-center">
                             <div className="w-3 h-3 bg-secondary rounded-full"></div>
@@ -70,7 +80,7 @@ const Journey = () => {
         {
             experience.map((item, index) => {
                 return (
-                    <div key={index} className="flex items-center gap-12 w-full">
+                    <div key={index} className="flex items-center gap-12 w-full pb-12">
                         {/* bullets */}
                         <div className="flex flex-col w-max justify-center items-center">
                             <div className="w-3 h-3 bg-secondary rounded-full"></div>
