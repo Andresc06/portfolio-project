@@ -28,7 +28,7 @@ const Stairs = () => {
         initial="initial"
         animate="animate"
         exit="exit"
-        className="h-full w-full bg-white relative"
+        className="h-full w-full bg-[#141419] relative"
     />
     );
   })}
